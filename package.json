@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-rest-covid",
+  "version": "1.0.0",
+  "description": "Aplicação que realize o consumo de duas APIs, uma para leitura de informações e outra para escrita do resultado.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flaberson/nodejs-rest-covid.git"
+  },
+  "author": "Flaberson Barros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flaberson/nodejs-rest-covid/issues"
+  },
+  "homepage": "https://github.com/Flaberson/nodejs-rest-covid#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
