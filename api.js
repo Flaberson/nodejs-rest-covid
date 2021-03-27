@@ -32,7 +32,6 @@ router.get('/',function(req,res){
           Authorization: `token ${token}`
       }
     }).then(function(response) {
-        const structure = response.data
         var itensList = [];
         itensList=response.data.results;
         itensList.sort(GetSortOrder("confirmed"));//ORDENAR MAIORES CASOS CONFIRMADOS
